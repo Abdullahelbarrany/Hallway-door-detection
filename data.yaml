@@ -1,0 +1,14 @@
+train: C:/Users/M_B/Desktop/hallway/Hallway-door-detection/datasets/train/images
+val: C:/Users/M_B/Desktop/hallway/Hallway-door-detection/datasets/valid/images
+
+test: C:/Users/M_B/Desktop/hallway/Hallway-door-detection/datasets/test/images
+
+nc: 2
+names: ['door','persons']
+
+roboflow:
+  workspace: nathaly-espino
+  project: door-detection-2-dl5yv
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nathaly-espinoza/door-detection-2-dl5yv/dataset/3
